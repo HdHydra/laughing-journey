@@ -2,7 +2,7 @@
 #This project is built by Riwader Nabhan 
 #N A for Out Of Syllabus python course 
 
-from datetim import datetime as date
+from datetime import datetime as date
 import time
 
 today = date.now()
