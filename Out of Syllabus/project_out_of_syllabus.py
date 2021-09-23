@@ -2,17 +2,17 @@
 #This project is built by Riwader Nabhan 
 #N A for Out Of Syllabus python course 
 
-from datetime import datetime as dt
-import time as t
+from datetime import datetime as date
+import time
 
-x = dt.now()
+today = date.now()
 
 print("Project developed by Riwader Nabhan NSS Engineering college")
-print ("program executed at ",x.strftime("%c"))
+print ("program executed at ", today.strftime("%c"))
 
 
-w = input("Enter a string to animate: ")
+string = input("Enter a string to animate: ")
 
-for ch in w:
-    print(ch, end = "", flush = True)
-    t.sleep(0.16)
+for c in string:
+    print(c, end = "", flush = True)
+    time.sleep(0.16)
