@@ -1,6 +1,4 @@
 # laughing-journey
 My projects on python
 
-The projects based on python is stored in this
-folder. This repository contains both currently
-ongoing as well as projects that are completed.
+The projects are based on python in this folder. This repository contains both python as well jupyter notebook projects.
