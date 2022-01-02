@@ -4,5 +4,6 @@ This is jupiter notebook project is built by Riwader Nabhan as part of online co
 * It takes input data from googleplaystore.csv downloaded from https://kaggle.com
 * It does not use Imputer from SimpleImputer to find mean and median of each column to fill the NaN in numpy arrays
 * It simply dropes rows with NaN values
-* It can catagorise each column based on its unique values and figure number of apps with similiar attributes
+* It can categorise each column based on its unique values and figure number of apps with similiar attributes
+* Categories are Category, Content Rating, Price, Genres, Installs.
 * That's all now you can enjoy!
