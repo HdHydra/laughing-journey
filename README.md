@@ -5,4 +5,5 @@ My projects on python
 * Prediction Project predicts the survial rate of a passenger in Titanic Tragedy using Decision Trees
 * Google Play Classification Project classifies 1000s of apps based different parameters like ratings and genres.
 * Out of Syllabus Project is the first project done for the 14 days crash course on introduction to python course
+* Recurring Timer with 5  minute interval in Batch Script
 * More will come soon....
