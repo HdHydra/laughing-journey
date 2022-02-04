@@ -1,4 +1,9 @@
+#created by Riwader Nabhan N A on 06-01-2022 19:17 IST
+from typing import ItemsView
+
+
 user_input = 'random'
+data = []
 
 def show_menu():
     print('Menu:')
@@ -8,17 +13,24 @@ def show_menu():
     print('4. Exit')
 
 while user_input != '4':
-
     show_menu()
-
-    user_input = input('>>> ')
+    user_input = input('Enter your choice: ')
 
     if user_input == '1':
-        print('Add an item')
+        item = input('What is to be done? ')
+        data.append(item)
+        print('Added item is', item)
     elif user_input == '2':
-        print('Mark as done')
+        item = input('What is to be marked as done? ')
+        if item in data:
+            data.remove(item)
+            print('Removed the item:', item)
+        else:
+            print('Item does not exist in the list')
     elif user_input == '3':
-        print('View the to do items')
+        print('List of to-do items: ')
+        for item in data:
+            print(item)
     elif user_input == '4':
         print('Goodbye')
     else:
